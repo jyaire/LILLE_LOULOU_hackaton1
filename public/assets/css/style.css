@@ -1,15 +1,42 @@
-body, html {
-    height: 100%;
-}
-.bg {
-    /* The image used */
-    background-image: url("../images/background.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
+* body {
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 100vh;
     background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+}
+/*--------------------Block Content --------------------*/
+.header {
+    display: flex;
+    height: 50%;
+}
+.header img {
+    position: absolute;
+    width :100%;
+    height: 60%;
+}
+.header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.atrocité {
+    width:30%;
+    position:relative;
+    margin-left:50%;
+    transform: rotate(15deg);
+}
+
+.atrocité img {
+    width:100%;
+}
+
+.atrocité h4 {
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:rotate(-45deg);
+    font-size: 20px;
 }

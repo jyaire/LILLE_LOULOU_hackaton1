@@ -1,15 +1,52 @@
-* body {
+* body,html {
     margin: 0;
     font-size: 16px;
     box-sizing: border-box;
-    height: 100vh;
     background-size: cover;
+    font-family: 'Frijole', cursive;
     padding: 0;
 }
+
+/* Keyframes = animations avec css */
+@keyframes bloodDown {
+    from{
+        height: 70%;
+    }
+    to{
+        height: 113%
+    }
+}
+
+
+.bg {
+    /* The image used */
+    background-image: url("../images/background.jpg");
+
+    /* Full height */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*--------------------Block Content --------------------*/
+
+#indexSection{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
 .header {
     position: relative;
-    height: 50%;
+    height: 113%;
+    transition: height 1s;
+    animation-name: bloodDown;
+    animation-duration: 1.5s;
 }
 .header img {
     width :100%;
@@ -17,14 +54,15 @@
 }
 .header h1{
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 70px;
+    width: 100%;
+    text-align: center;
 }
 .atrocité {
-    width:30%;
-    position:relative;
-    margin-left:50%;
+    width: 244px;
+    position: absolute;
+    bottom: 84px;
+    right: 135px;
     transform: rotate(15deg);
 }
 

@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1db4113-8458-406e-be59-5324049aa136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple - MVC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/db.php.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/debug.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grumphp.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc_workshop_articles.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpmd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpstan.neon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/chiendent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/freedent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/trident.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-mvc.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AbstractController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ItemController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/AbstractManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/ItemManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Home/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Item/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Item/add.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Item/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Item/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Item/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/layout.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connec_tomodify.php" beforeDir="false" afterPath="$PROJECT_DIR$/connec.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572428262839</updated>
-      <workItem from="1572428264450" duration="3769000" />
+      <workItem from="1572428264450" duration="4468000" />
     </task>
     <servers />
   </component>

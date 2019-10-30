@@ -1,18 +1,139 @@
-#screamer{
+#screamer_britney{
     display : none;
     position: fixed;
-    width: 80vw;
-    height: 80vh;
-    top: 5vh;
-    left: 5vw;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
     z-index: 1;
 }
 
-#screamer iframe{
+#screamer_britney.active{
+    display: block;
+}
+
+#screamer_britney img{
     width: 100%;
     height: 100%;
 }
 
-div.active{
-    display:block;
+h1{
+    text-align: center;
+}
+
+
+
+#childrenPic{
+    max-width: 60%;
+    width: max-content;
+    margin: 50px auto;
+    position : relative;
+}
+
+#childrenPic img{
+    width: 100%;
+}
+
+#childrenPic div{
+    width: 60px;
+    height: 60px;
+    z-index : 2;
+    cursor : pointer;
+}
+
+
+#victim1{
+    position : absolute;
+    left : 135px;
+    top : 245px;
+}
+
+#victim2{
+    position : absolute;
+    left : 225px;
+    top : 225px;
+}
+
+#victim3{
+    position : absolute;
+    left : 320px;
+    top : 225px;
+}
+
+#victim4{
+    position : absolute;
+    left : 400px;
+    top : 220px;
+}
+
+#victim5{
+    position : absolute;
+    left : 490px;
+    top : 220px;
+}
+
+#victim6{
+    position : absolute;
+    left : 580px;
+    top : 230px;
+}
+
+#victim7{
+    position : absolute;
+    left : 670px;
+    top : 230px;
+}
+
+#victim8{
+    position : absolute;
+    left : 760px;
+    top : 240px;
+}
+
+#victim9{
+    position : absolute;
+    left : 680px;
+    top : 460px;
+}
+
+#victim10{
+    position : absolute;
+    left : 580px;
+    top : 450px;
+}
+
+#victim11{
+    position : absolute;
+    left : 470px;
+    top : 450px;
+}
+
+#victim12{
+    position : absolute;
+    left : 370px;
+    top : 440px;
+}
+
+#victim13{
+    position : absolute;
+    left : 270px;
+    top : 460px;
+}
+
+#victim14{
+    position : absolute;
+    left : 180px;
+    top : 450px;
+}
+
+#victim15{
+    position : absolute;
+    left : 100px;
+    top : 450px;
+}
+
+#professor{
+    position : absolute;
+    left : 720px;
+    top : 120px;
 }

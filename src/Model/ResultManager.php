@@ -27,6 +27,15 @@ class ResultManager extends AbstractManager
         parent::__construct(self::TABLE);
     }
 
+    /**
+     * Get one row random from database.
+     *
+     * @return array
+     */
+    public function selectOneMonster(): array
+    {
+        return $this->pdo->query("SELECT name, result, picture FROM $this->table ORDER BY RAND() LIMIT 1")->fetch();
+    }
 
     /**
      * @param array $item

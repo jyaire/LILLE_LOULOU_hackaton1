@@ -4,7 +4,6 @@
     box-sizing: border-box;
     height: 100vh;
     background-size: cover;
-    font-family: 'Josefin Sans', sans-serif;
     padding: 0;
 }
 /*--------------------Block Content --------------------*/
@@ -13,7 +12,6 @@
     height: 50%;
 }
 .header img {
-
     width :100%;
     height: 70%;
 }

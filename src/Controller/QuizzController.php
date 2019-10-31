@@ -7,9 +7,11 @@ class QuizzController extends AbstractController
 {
     public function show($id)
     {
+
         $questionsM = new QuizzManager();
         $questions = $questionsM->selectOneById($id);
-        return $this->twig->render('Quizz/show.html.twig', ['questions' => $questions]);
+
+            return $this->twig->render('Quizz/show.html.twig', ['questions' => $questions]);
     }
      /**
      * Display home page

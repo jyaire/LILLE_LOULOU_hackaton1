@@ -69,7 +69,6 @@ h1{
     height: 60px;
     z-index : 2;
     cursor : pointer;
-    border : 1px yellow solid;
 }
 
 
@@ -166,7 +165,6 @@ h1{
 #professor{
     position : absolute;
     display : block;
-    border : 1px yellow solid;
     left : 600px;
     top : 100px;
     width: 60px;

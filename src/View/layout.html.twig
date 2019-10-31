@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{% block title %}{% endblock %}</title>
+
         {% block stylesheet %}{% endblock %}
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" href="/assets/images/favicon.png">
@@ -13,7 +14,7 @@
 </head>
 
 <body>
-<div class="container-fluid bg">
+<div class="container-fluid bg pagecontainer">
 
 
     {% block content %}{% endblock %}

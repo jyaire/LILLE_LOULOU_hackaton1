@@ -7,7 +7,10 @@
     <div class="result-titre"><h3>{{ result.name }}</h3></div>
             <ul class="result-content">
             <li><img src="{{ result.picture }}" alt="{{ result.name }}"></li>
-            <li>{{ result.result }}texte</li></ul>
+            <ul class="result-tips"><li>{{ result.result }}</li>
+                <li>Conseil du jour : {{ result.tip }}</li>
+                <li><a href="../Home/index"><img src="../assets/images/back.png"></a></li>
+            </ul></ul>
     </div>
 
 

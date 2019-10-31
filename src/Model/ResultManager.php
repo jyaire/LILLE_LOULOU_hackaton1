@@ -34,7 +34,8 @@ class ResultManager extends AbstractManager
      */
     public function selectOneMonster(): array
     {
-        return $this->pdo->query("SELECT name, result, picture FROM $this->table ORDER BY RAND() LIMIT 1")->fetch();
+        return $this->pdo->query("SELECT name, result, tip, picture FROM $this->table 
+        ORDER BY RAND() LIMIT 1")->fetch();
     }
 
     /**

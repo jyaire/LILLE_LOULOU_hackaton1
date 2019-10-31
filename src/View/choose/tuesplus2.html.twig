@@ -1,0 +1,45 @@
+{% extends 'layout.html.twig' %}
+{% block title %}{% endblock %}
+
+
+{% block stylesheet %}
+
+    <link rel="stylesheet" href="../assets/css/styletues.css">
+
+{% endblock %}
+
+{% block content %}
+
+    <h1>Se ressourcer pour toi c'est?</h1>
+
+    <section>
+        <div id="conteneur">
+        <article>
+                <a href="#">
+            <img class="filter" src="../assets/images/lovetree.png" alt="Furry dans la forêt">
+                </a>
+            <p>Se balader en forêt, être à l'écoute des arbres.</p>
+        </article>
+        <article>
+                 <a href="#">
+            <img class="filter" src="../assets/images/bed.png" alt="Fury dans son lit">
+                </a>
+            <p>Tu as l'âme d'un artiste tu adores faire des petits shooting photos.</p>
+        </article>
+        <article>
+            <a href="#">
+                <img class="filter" id="laugh_clown" src="../assets/images/furry.jpg" alt="Fury en convention">
+            </a>
+            <p> Rencontrer d'autres monstres, aller à des conventions. Bref tu as besoin de te sociabiliser!</p>
+        </article>
+        <article>
+            <a href="#">
+            <img class="filter" src="../assets/images/furybed.jpeg" alt="Fury avec son coussin">
+            </a>
+            <p>Une petite soirée OKLM il n'y a rien que ça de vrai !</p>
+
+        </article>
+        </div>
+    </section>
+
+{% endblock %}

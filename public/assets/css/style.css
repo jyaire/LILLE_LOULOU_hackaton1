@@ -13,10 +13,9 @@
         height: 70%;
     }
     to{
-        height: 113%
+        height: 110%
     }
 }
-
 
 .bg {
     /* The image used */
@@ -60,12 +59,12 @@
     font-size: 32px;
 }
 .atrocité {
-    width: 290px;
+    width: 300px;
     position: absolute;
-    bottom: 100px;
-    right: 250px;
+    bottom: 14px;
+    right: 280px;
     transform: rotate(15deg);
-    border: 1px dotted green;
+
 }
 .atrocité a {
     width:100% ;
@@ -76,7 +75,7 @@
 
 .atrocité h4 {
     position:absolute;
-    top:55%;
+    top: 47%;
     left:50%;
     transform:rotate(-45deg);
     font-size: 18px;

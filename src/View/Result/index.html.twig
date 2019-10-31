@@ -1,13 +1,14 @@
 {% extends 'layout.html.twig' %}
-{% block stylesheet %}
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-{% endblock %}
+{% block stylesheet %}{% endblock %}
 {% block content %}
-    <h1>Résultats</h1>
 
-                Votre profil de monstre le plus proche est {{ result.name }}.
-                <br><img src="{{ result.picture }}" alt="{{ result.name }}">
-                <button type="button" class="btn btn-secondary"><br>J'adore être ce monstre !</button>
+    <h2 class="result">Votre profil de monstre le plus proche est...</h2>
+    <div class="result-opaque">
+    <div class="result-titre"><h3>{{ result.name }}</h3></div>
+            <ul class="result-content">
+            <li><img src="{{ result.picture }}" alt="{{ result.name }}"></li>
+            <li>{{ result.result }}texte</li></ul>
+    </div>
+
 
 {% endblock %}

@@ -17,11 +17,30 @@ h2{
     z-index: 1;
 }
 
+#screamer_kevin{
+    display : none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 #screamer_britney.active{
     display: block;
 }
 
+#screamer_kevin.active{
+    display: block;
+}
+
 #screamer_britney img{
+    width: 100%;
+    height: 100%;
+}
+
+#screamer_kevin img{
     width: 100%;
     height: 100%;
 }
@@ -50,101 +69,107 @@ h1{
     height: 60px;
     z-index : 2;
     cursor : pointer;
+    border : 1px yellow solid;
 }
 
 
 #victim1{
     position : absolute;
-    left : 135px;
-    top : 245px;
+    left : 110px;
+    top : 210px;
 }
 
 #victim2{
     position : absolute;
-    left : 225px;
-    top : 225px;
+    left : 190px;
+    top : 190px;
 }
 
 #victim3{
     position : absolute;
-    left : 320px;
-    top : 225px;
+    left : 270px;
+    top : 190px;
 }
 
 #victim4{
     position : absolute;
-    left : 400px;
-    top : 220px;
+    left : 330px;
+    top : 180px;
 }
 
 #victim5{
     position : absolute;
-    left : 490px;
-    top : 220px;
+    left : 410px;
+    top : 180px;
 }
 
 #victim6{
     position : absolute;
-    left : 580px;
-    top : 230px;
+    left : 490px;
+    top : 190px;
 }
 
 #victim7{
     position : absolute;
-    left : 670px;
-    top : 230px;
+    left : 560px;
+    top : 200px;
 }
 
 #victim8{
     position : absolute;
-    left : 760px;
-    top : 240px;
+    left : 630px;
+    top : 200px;
 }
 
 #victim9{
     position : absolute;
-    left : 680px;
-    top : 460px;
+    left : 570px;
+    top : 390px;
 }
 
 #victim10{
     position : absolute;
-    left : 580px;
-    top : 450px;
+    left : 490px;
+    top : 380px;
 }
 
 #victim11{
     position : absolute;
-    left : 470px;
-    top : 450px;
+    left : 390px;
+    top : 370px;
 }
 
 #victim12{
     position : absolute;
-    left : 370px;
-    top : 440px;
+    left : 310px;
+    top : 370px;
 }
 
 #victim13{
     position : absolute;
-    left : 270px;
-    top : 460px;
+    left : 220px;
+    top : 380px;
 }
 
 #victim14{
     position : absolute;
-    left : 180px;
-    top : 450px;
+    left : 150px;
+    top : 380px;
 }
 
 #victim15{
     position : absolute;
-    left : 100px;
-    top : 450px;
+    left : 80px;
+    top : 380px;
 }
 
 #professor{
     position : absolute;
-    left : 720px;
-    top : 120px;
+    display : block;
+    border : 1px yellow solid;
+    left : 600px;
+    top : 100px;
+    width: 60px;
+    height: 60px;
+    cursor : pointer;
 }

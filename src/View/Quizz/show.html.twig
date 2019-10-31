@@ -4,7 +4,13 @@
     {% for question in questions %}
     <div class="container">
         <h1 class="title_question">{{ questions['question'] }}</h1>
-        <form action="/show2" method="post" class="form">
+        <form action="
+        {% if questions['id'] == 1  %}
+        /tues/photos
+        {% else %}
+        /Quizz/children
+        {% endif %}
+        " method="post" class="form">
             <div><input  type="radio" name="reponse" id="reponse_une" value="reponse_une" class=""><label for="reponse_une" >{{ questions['reponse_une'] }}</label></div>
             <div><input  type="radio" name="reponse" id="reponse_deux" value="reponse_deux" class=""><label for="reponse_une" >{{ questions['reponse_deux'] }}</label></div>
             <div><input type="radio" name="reponse" id="reponse_trois" value="reponse_trois" class=""><label for="reponse_une" >{{ questions['reponse_trois'] }}</label></div>

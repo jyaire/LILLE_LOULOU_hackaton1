@@ -1,11 +1,41 @@
+*{
+    padding: 0;
+    margin: O;
+    box-sizing: border-box;
+}
+
+.pagecontainer{
+    width: 100vw;
+    padding: 20px 15%;
+    height: 100vh;
+    overflow: hidden;
+}
 h1{
     color: white;
 }
 
-p{
-    color: red;
+#conteneur{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+article{
+    width: 37%;
 }
 
 img{
-    width: 30%;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+p{
+    color: white;
+    text-align: justify-all;
+    font-size: 12px;
+    margin-left: 10px;
+
 }

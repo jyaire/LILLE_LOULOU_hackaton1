@@ -3,12 +3,12 @@
 {% block content %}
     {% for question in questions %}
     <div class="container">
-        <h1 class="title_question">{{ question['question'] }}</h1>
-        <form action="tues/photos" method="post" class="form">
-            <div><input  type="radio" name="reponse" id="reponse_une" value="reponse_une" class=""><label for="reponse_une" >{{ question['reponse_une'] }}</label></div>
-            <div><input  type="radio" name="reponse" id="reponse_deux" value="reponse_deux" class=""><label for="reponse_une" >{{ question['reponse_deux'] }}</label></div>
-            <div><input type="radio" name="reponse" id="reponse_trois" value="reponse_trois" class=""><label for="reponse_une" >{{ question['reponse_trois'] }}</label></div>
-            <div><input  type="radio" name="reponse" id="reponse_quatre" value="reponse_quatre" class=""><label for="reponse_une" >{{ question['reponse_quatre'] }}</label></div>
+        <h1 class="title_question">{{ questions['question'] }}</h1>
+        <form action="/show2" method="post" class="form">
+            <div><input  type="radio" name="reponse" id="reponse_une" value="reponse_une" class=""><label for="reponse_une" >{{ questions['reponse_une'] }}</label></div>
+            <div><input  type="radio" name="reponse" id="reponse_deux" value="reponse_deux" class=""><label for="reponse_une" >{{ questions['reponse_deux'] }}</label></div>
+            <div><input type="radio" name="reponse" id="reponse_trois" value="reponse_trois" class=""><label for="reponse_une" >{{ questions['reponse_trois'] }}</label></div>
+            <div><input  type="radio" name="reponse" id="reponse_quatre" value="reponse_quatre" class=""><label for="reponse_une" >{{ questions['reponse_quatre'] }}</label></div>
             <input type="submit" value="Je Valide !" class="button">
         </form>
     </div>

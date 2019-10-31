@@ -63,6 +63,7 @@
     width: 100%;
     height: max-content;
     transform: translateY(-50%);
+    background-color: rgba(163, 71, 57, 0.56);
 }
 
 .title_question {
@@ -73,6 +74,7 @@
     display: flex;
     flex-flow: column wrap;
     margin: 0 auto;
+    align-content: flex-end;
 }
 
 .form div {

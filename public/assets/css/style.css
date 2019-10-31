@@ -59,11 +59,12 @@
     text-align: center;
 }
 .atrocité {
-    width: 244px;
+    width: 290px;
     position: absolute;
-    bottom: 84px;
-    right: 135px;
+    bottom: 70px;
+    right: 250px;
     transform: rotate(15deg);
+    border: 1px dotted green;
 }
 
 .atrocité img {
@@ -72,8 +73,8 @@
 
 .atrocité h4 {
     position:absolute;
-    top:60%;
+    top:55%;
     left:50%;
     transform:rotate(-45deg);
-    font-size: 20px;
+    font-size: 18px;
 }

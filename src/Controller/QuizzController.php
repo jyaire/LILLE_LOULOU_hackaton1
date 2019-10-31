@@ -22,5 +22,5 @@ class QuizzController extends AbstractController
     public function children()
     {
         return $this->twig->render('/Quizz/children.html.twig');
-    } 
+    }
 }

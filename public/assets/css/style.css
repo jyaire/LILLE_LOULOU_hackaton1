@@ -42,7 +42,7 @@
 }
 .header {
     position: relative;
-    height: 50%;
+    height: 110%;
     transition: height 1s;
     animation-name: bloodDown;
     animation-duration: 1.5s;
@@ -64,8 +64,13 @@
     bottom: 14px;
     right: 269px;
     transform: rotate(15deg);
-
+    transition: transform, .15s;
 }
+
+.atrocité:hover{
+    transform: rotate(0deg);
+}
+
 .atrocité a {
     width:100% ;
 }

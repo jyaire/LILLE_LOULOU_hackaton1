@@ -8,11 +8,13 @@
 
 namespace App\Controller;
 
+use App\Model\ResultManager;
+
 class ResultController extends AbstractController
 {
 
     /**
-     * Display home page
+     * Display item listing
      *
      * @return string
      * @throws \Twig\Error\LoaderError
@@ -21,6 +23,9 @@ class ResultController extends AbstractController
      */
     public function index()
     {
-        return $this->twig->render('Result/index.html.twig');
+        $resultManager = new ResultManager();
+        $results = $resultManager->selectOneMonster();
+
+        return $this->twig->render('Result/index.html.twig', ['result' => $results]);
     }
 }

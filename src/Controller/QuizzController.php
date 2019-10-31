@@ -5,10 +5,10 @@ use App\Model\QuizzManager;
 
 class QuizzController extends AbstractController
 {
-    public function show()
+    public function show($id)
     {
         $questionsM = new QuizzManager();
-        $questions = $questionsM->selectAll();
+        $questions = $questionsM->selectOneById($id);
         return $this->twig->render('Quizz/show.html.twig', ['questions' => $questions]);
     }
      /**

@@ -78,3 +78,35 @@
     transform:rotate(-45deg);
     font-size: 18px;
 }
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    transform: translateY(-50%);
+}
+
+.title_question {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+
+.form div {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form .button {
+    padding: 10px 18px;
+    margin: 30px auto 0;
+    width: max-content;
+
+}
+

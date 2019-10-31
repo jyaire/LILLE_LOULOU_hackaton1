@@ -5,6 +5,8 @@
     background-size: cover;
     font-family: 'Frijole', cursive;
     padding: 0;
+    color : white;
+    letter-spacing: 4px;
 }
 
 /* Keyframes = animations avec css */
@@ -97,7 +99,7 @@
     width: 100%;
     height: max-content;
     transform: translateY(-50%);
-    background-color: rgba(163, 71, 57, 0.56);
+    background-color: rgba(163, 71, 57, 0.1);
 }
 
 .title_question {
@@ -113,7 +115,7 @@
 
 .form div {
     width: 70%;
-    margin: 0 auto;
+    margin: 1% auto;
 }
 
 .form .button {
@@ -124,6 +126,12 @@
 
 
 /*--------------------Result Content --------------------*/
+
+.result{
+    text-align: center;
+    margin : 3% auto;
+    font-size : 2em;
+}
 
 .result-opaque {
     background-color: yellow;
@@ -136,7 +144,7 @@
 
 .result-titre
 {
-   display:flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
 }

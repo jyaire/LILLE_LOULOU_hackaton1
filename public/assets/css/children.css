@@ -1,3 +1,12 @@
+h2{
+    color : white;
+    margin : 0;
+    text-align : center;
+    font-size : 2.5em;
+    padding-top : 2%;
+    letter-spacing: 4px;
+}
+
 #screamer_britney{
     display : none;
     position: fixed;
@@ -24,10 +33,12 @@ h1{
 
 
 #childrenPic{
-    max-width: 60%;
+    max-width: 50%;
     width: max-content;
     margin: 50px auto;
     position : relative;
+    box-shadow : 5px 5px 10px white;
+    border-left : 2px black solid;
 }
 
 #childrenPic img{
